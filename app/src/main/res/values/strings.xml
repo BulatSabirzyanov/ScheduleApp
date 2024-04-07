@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Schedule</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_btn_title">Создать</string>
+    <string name="create_et_hint">Введите заголовок</string>
+    <string name="tv_create_fragment">Создание тудушки</string>
+    <string name="btn_create_fragment">Cоздать</string>
+</resources>
