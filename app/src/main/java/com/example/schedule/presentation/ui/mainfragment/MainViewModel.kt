@@ -3,7 +3,6 @@ package com.example.schedule.presentation.ui.mainfragment
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.feature_api.models.ScheduleApiList
-import com.example.feature_api.usecases.CreateScheduleListUseCase
 import com.example.feature_api.usecases.DeleteScheduleListUseCase
 import com.example.feature_api.usecases.GetAllScheduleListsUseCase
 import kotlinx.coroutines.flow.MutableStateFlow

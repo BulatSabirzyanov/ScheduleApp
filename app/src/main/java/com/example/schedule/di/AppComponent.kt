@@ -33,7 +33,7 @@ interface AppComponent {
 
     fun inject(mainFragment: MainFragment)
 
-    fun inject(сreateScheduleItemFragment: CreateScheduleItemFragment)
+    fun inject(createScheduleItemFragment: CreateScheduleItemFragment)
 
 
     @Component.Builder
