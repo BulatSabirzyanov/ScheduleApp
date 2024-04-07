@@ -42,7 +42,7 @@ class ScheduleRepositoryImpl @Inject constructor(
         }
     }
 
-    override suspend fun createScheduleListItem(scheduleApiList: ScheduleApiList) { // Добавлен модификатор "suspend" для использования в корутинах
+    override suspend fun createScheduleListItem(scheduleApiList: ScheduleApiList) {
         val scheduleList = ScheduleList(
             id = scheduleApiList.id,
             title = scheduleApiList.title,
