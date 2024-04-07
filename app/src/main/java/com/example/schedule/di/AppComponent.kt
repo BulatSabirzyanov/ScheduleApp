@@ -2,6 +2,7 @@ package com.example.schedule.di
 
 import android.content.Context
 import com.example.feature_api.repository.ScheduleRepository
+import com.example.feature_api.usecases.GetAllScheduleListsUseCase
 import com.example.feature_impl.db.dao.ScheduleItemDao
 import com.example.feature_impl.db.dao.ScheduleListDao
 import com.example.schedule.db.AppDatabase
@@ -27,6 +28,8 @@ interface AppComponent {
     fun getScheduleItemDao(): ScheduleItemDao
 
     fun getScheduleRepository(): ScheduleRepository
+
+    fun getGetAllScheduleListsUseCase(): GetAllScheduleListsUseCase
 
     fun inject(mainFragment: MainFragment)
 
